@@ -1,3 +1,7 @@
+refactoring - processing restructing the code
+
+
+
 Problem statement  ------
 "Many teams still host source code in Azure DevOps Git repositories but want to migrate to GitHub to take advantage of GitHub's ecosystem like integrated CI/CD, a large community, better integrations, and advanced collaboration features. Simple pushes can miss large blobs, lose context like PRs, or push incomplete file sets because of LFS needs, submodules, or repository-size constraints. Our goal was to create a tool that discovers repository contents and risks ahead, produces a readable discovery report, and migrates the repo while generating a post-migration verification report."
 
