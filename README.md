@@ -24,7 +24,6 @@ Explain why the 100MB threshold: "GitHub's recommended thresholds and usual LFS 
 Azure DevOps API helpers
 "Functions like ado_get, get_repo_metadata, list_items, list_commits, list_tags, and list_pull_requests wrap REST calls. Note the script uses requests with basic auth (PAT for ADO). The list_items call can request full recursion and content metadata so we have a starting size estimate."
 
-Emphasize network safety: "The code disables InsecureRequestWarning and sometimes sets verify=False for convenience; point out that in a production setting you'd want to enable certificate verification."
 
 Accurate blob sizing & parallel fetching
 "A key part is getting accurate blob sizes. Azure DevOps's items listing includes a size but it's not always accurate for all blobs, so the script includes get_blob_size which fetches blob metadata by object ID. fetch_sizes_for_items runs many of those fetches in parallel using ThreadPoolExecutor to speed things up — you can display the live progress indicator printed to console while it runs."
