@@ -127,11 +127,3 @@ Suggested next steps and improvements (say these to wrap up)
 Closing line (final wrap)
 "In short, this script gives teams the visibility they need to plan safe migrations from Azure DevOps to GitHub. It reduces surprises by reporting large and binary files, gives per-branch storage breakdowns, attempts to migrate and recreate PRs, and verifies post-migration results — all important steps to keep history intact and avoid push failures or data loss."
 
-If you want, I can:
-
-Convert these sections into timed speaking notes (e.g., a 5–7 minute talk or a 15–20 minute talk).
-Produce a short script of exact sentences for each slide or visual you plan to show.
-Or produce a condensed one-minute summary to open the talk.
-Which of those would you like next?
-
-GPT-5 mini • 0x
